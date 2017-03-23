@@ -127,5 +127,8 @@ nav li a {
 .botton-nav {
 	display: none;
 }
+.col-main {
+	width: 100%;
+}
 
 }

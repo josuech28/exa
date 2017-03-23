@@ -57,6 +57,26 @@ img {
 }
 
 /*
+ * Decorate text
+ */
+.text-red {
+	color: #FE2E2E;
+}
+
+.link {
+	color: #0080FF;
+}
+.unassigned-link {
+
+}
+
+.web-link {
+	text-decoration: none;
+}
+
+
+
+/*
  * Footer
  */
  footer {
