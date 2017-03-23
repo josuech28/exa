@@ -1,22 +1,55 @@
+/*
+ * General css
+ */
+
+/*
+ * Body, html
+ * Format
+ */ 
 body, html {
+	height: 100%;
+  	box-sizing: border-box;
 	width: 100%;
 	overflow-x: hidden; 
 	font-family: sans-serif;
 	color: #848484;
 }
 
+/*
+ * Container - wrap all page
+ */ 
 .container {
-	max-width: 1024px;
+	padding: 0 16px;
 }
-.row {
-	display: flex;
+
+/*
+ * Navigation
+ */ 
+
+nav ul {
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 10px;
+}
+/*
+ * Titles
+ */
+.title-main-section {
+	color: black;
+}
+
+.title-sub-section {
+	color: #0080FF;
+}
+.title-sub-sub-section {
+	color: #01DF01;
+}
+
+.title-sub-sub-sub-section {
+	color: #FE2E2E;
+}
+img {
 	width: 100%;
 }
 
-.col-6 {
-	width: 50%;
-}
 
-.col-4 {
-	width: 33.33%;
-}
