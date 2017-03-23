@@ -48,8 +48,19 @@ nav ul {
 .title-sub-sub-sub-section {
 	color: #FE2E2E;
 }
+/*
+ * General images
+ */
+
 img {
 	width: 100%;
 }
+
+/*
+ * Footer
+ */
+ footer {
+ 	text-align: center;
+ }
 
 
