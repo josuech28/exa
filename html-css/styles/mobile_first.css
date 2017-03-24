@@ -1,0 +1,152 @@
+/*
+ * Layaout to desktop
+ */
+.row {
+	display: block;
+}
+
+.col-header-1 {
+ 	width: 100%;
+ 	margin: 10px;
+}
+
+.col-header-2 {
+	width: 100%;
+ 	margin: 10px;
+}
+
+.col-content-1 {
+ 	width: 100%;
+ 	margin: 10px;
+}
+
+.col-content-2 {
+ 	width: 100%;
+ 	margin: 10px;
+}
+
+.col-content-3 {
+ 	width: 100%;
+ 	margin: 10px;
+}
+
+.main-image {
+	height: 220px; 
+	width: 440px;
+}
+
+/*
+ * Navigation
+ */
+.nav-top {
+	float: none;
+	margin-top: 5px; 
+}
+
+ nav li {
+ 	display: block;
+ 	background: #D8D8D8;
+ 	text-align: center;
+ 	margin-bottom: 5px; 
+ 	margin: : 5px;
+}
+nav li a {
+	color: #0080FF;
+	border-right: none;
+	text-align: center;
+}
+
+nav li:hover:not(.active) {
+    background-color: #6E6E6E;
+    color: white;
+}
+nav li a:hover:not(.active) {
+    color: white;
+}
+.tab-active {
+	color: black;
+	text-decoration: none;
+}
+.botton-nav {
+	display: none;
+}
+.col-main {
+	width: 100%;
+	text-align: center;
+}
+
+/*
+ * Desktop version
+ */
+@media screen and (min-width: 720px){
+.row {
+	display: flex;
+	width: 100%;
+}
+
+.col {
+	margin: 0 16px;
+}
+
+.col-main {
+	text-align: center;
+	width: 100%;
+}
+.col-header-1 {
+ 	width: 70%;
+}
+
+.col-header-2 {
+	width: 30%;
+}
+
+.col-content-1 {
+ 	width: 40%;
+}
+
+.col-content-2 {
+ 	width: 30%;
+}
+
+.col-content-3 {
+ 	width: 30%;
+
+}
+/*
+ * Main image
+ */
+.main-image {
+	height: 340px; 
+	width: 990px;
+}
+
+/*
+ * Navigation
+ */
+.nav-top {
+	float: right;
+	margin-top: 20px; 
+}
+
+nav li {
+ 	display: inline;
+}
+
+nav li a {
+	text-align: center;
+	border-right: 0.5px solid black;
+	padding: 5px;
+}
+nav li a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+.tab-active {
+	color: white;
+	text-decoration: none;
+	background-color: #111;
+}
+.botton-nav {
+	display: block;
+}
+}
