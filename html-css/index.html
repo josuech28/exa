@@ -8,6 +8,9 @@
   	<link rel="stylesheet" type="text/css" href="styles/reset.css">
   	<link rel="stylesheet" type="text/css" href="styles/style.css">
   	<link rel="stylesheet" type="text/css" href="styles/desktop_first.css">
+  	<!-- <link rel="stylesheet" type="text/css" href="styles/mobile_first.css"> -->
+  	<link rel="stylesheet" type="text/css" href="styles/style_ie.css">
+  	<link rel="stylesheet" type="text/css" href="styles/print.css">
 	<title>Examen Parcial 1 - UNA</title>
 </head>
 <body>
@@ -15,13 +18,9 @@
 		<header>
 			<div class="row">
 				<div class="col col-header-1">
-					<h1 class="title-main-section">
+					<h1>
 						UNA WEB Josue Chinchilla H.
-						box-model
-						fix-nav mobile
-						mobile-first
-						print view
-						check all
+						
 					</h1>
 				</div>
 				<div class="col col-header-2">
@@ -62,14 +61,16 @@
 				<section>
 					<h3 class="title-sub-section">Sub-section Center</h3>
 					<div class="container-sub-section-center">
-						<p>
-							A <strong>paragraph</strong> of <span class="text-red">text</span> <a class="link unassigned-link" href="">with an unassigned link.</a>
-						</p>
-						<p>
-							A second row of <del>text</del> with a <a class="link web-link" href="">web link</a>
-						</p>
+						<div class="box-content">
+							<p>
+							   A <strong>paragraph</strong> of <span class="text-red">text</span> <a class="link unassigned-link" href="">with an unassigned link.</a>
+							</p>
+							<p>
+							   A second row of <del>text</del> with a <a class="link web-link" href="">web link</a>
+							</p>
+						</div>
 					</div>
-					<img src="images/escudo-una.png" alt="Image Sub-section Center">
+					<img src="images/sub-section-photo.png" alt="Image Sub-section Center">
 					<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
 					</p>
@@ -82,10 +83,10 @@
 				<aside>
 					<h3 class="title-sub-section">Sub-section Right</h3>
 					<p>
-						We open at <span class="text-red">10:00</span> every morning.
+						We open at <time class="text-red">10:00</time> every morning.
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
 					</p>
 				</aside>
 				<aside>
@@ -93,33 +94,33 @@
 					<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
 					</p>
-					<img src="images/image-sub-temp.png" alt="Image sub sub-section">
+					<img src="images/sub-sub-section-photo.png" alt="Image sub sub-section">
 
 				</aside>
 				<aside>
 					<h5 class="title-sub-sub-sub-section">Sub-Sub-Sub section</h5>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit
 					</p>
 				</aside>
 			</div>
 		</div>
-		<footer>
-			<hr />
-			<nav class="botton-nav">
-				<ul>	
-					<li><a class="tab-active" href="#">HOME</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">COURSES</a></li>
-					<li><a href="#">CONTACT</a></li>
-				</ul>
-			</nav>
-			<div>
-				<p>
-					Copyright@ 2017. Curso de Programaci&oacute;n Web
-				</p>
-			</div>
-		</footer>
 	</div>
+	<footer>
+	<hr />
+	<nav class="botton-nav">
+		<ul>	
+			<li><a class="tab-active" href="#">HOME</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">COURSES</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</nav>
+	<div>
+		<p>
+			Copyright@ 2017. Curso de Programaci&oacute;n Web
+		</p>
+	</div>
+</footer>
 </body>
 </html>
