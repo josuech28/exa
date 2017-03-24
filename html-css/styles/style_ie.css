@@ -1,0 +1,11 @@
+/*
+ * IE 9 FIX
+ */
+
+img:hover {
+  -ms-transform: scale(1.15); 
+}
+
+box-model:hover {
+  -ms-transform: scale(1.15);
+}
