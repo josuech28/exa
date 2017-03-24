@@ -1,0 +1,51 @@
+@media print { 
+body, html {
+	width: 100%;
+	overflow-y: hidden;
+}
+img, .botton-nav, .nav-top {
+	display: none;
+}
+ .row {
+	display: block;
+}
+
+.col-header-1 {
+ 	width: 100%;
+}
+
+.col-header-2 {
+	display: none;
+}
+
+.col-main {
+	display: none;
+}
+
+.col-content-1 {
+ 	width: 100%;
+}
+
+.col-content-2 {
+ 	width: 100%;
+}
+
+.col-content-3 {
+ 	width: 100%;
+}
+ .box-content {
+ 	background: transparent;
+ 	border: none;
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+ footer {
+	position: relative;
+	right: auto;
+	bottom: 0px;
+	left: auto;
+	padding: 15px;
+	background-color: #efefef;
+	text-align: center;
+}
+}
