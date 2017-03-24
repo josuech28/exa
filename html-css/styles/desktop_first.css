@@ -10,6 +10,10 @@
 	margin: 0 16px;
 }
 
+.col-main {
+	text-align: center;
+	width: 100%;
+}
 .col-header-1 {
  	width: 70%;
  	margin: 10px;
@@ -78,36 +82,26 @@ nav li a:hover:not(.active) {
 @media screen and (max-width: 720px){
 .row {
 	display: block;
-	width: 100%;
-}
-
-.col {
-	margin: 0 16px;
 }
 
 .col-header-1 {
  	width: 100%;
- 	margin: 10px;
 }
 
 .col-header-2 {
 	width: 100%;
- 	margin: 10px;
 }
 
 .col-content-1 {
  	width: 100%;
- 	margin: 10px;
 }
 
 .col-content-2 {
  	width: 100%;
- 	margin: 10px;
 }
 
 .col-content-3 {
  	width: 100%;
- 	margin: 10px;
 }
 
 .main-image {
@@ -115,20 +109,42 @@ nav li a:hover:not(.active) {
 	width: 440px;
 }
 .nav-top {
+	float: none;
 	margin-top: 5px; 
 }
 
  nav li {
  	display: block;
+ 	background: #D8D8D8;
+ 	text-align: center;
+ 	margin-bottom: 5px; 
+ 	margin: : 5px;
 }
 nav li a {
+	color: #0080FF;
 	border-right: none;
+	text-align: center;
+}
+
+nav li:hover:not(.active) {
+    background-color: #6E6E6E;
+    color: white;
+}
+nav li a:hover:not(.active) {
+    background-color: transparent;
+    color: white;
+}
+.tab-active {
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
 }
 .botton-nav {
 	display: none;
 }
 .col-main {
 	width: 100%;
+	text-align: center;
 }
 
 }
