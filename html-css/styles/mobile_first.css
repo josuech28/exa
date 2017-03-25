@@ -48,7 +48,7 @@
  	background: #D8D8D8;
  	text-align: center;
  	margin-bottom: 5px; 
- 	margin: : 5px;
+ 	margin: 5px;
 }
 nav li a {
 	color: #0080FF;
@@ -79,74 +79,77 @@ nav li a:hover:not(.active) {
  * Desktop version
  */
 @media screen and (min-width: 720px){
-.row {
-	display: flex;
-	width: 100%;
-}
+	/*
+ 	 * Dektop layout
+ 	 */
+	.row {
+		display: flex;
+		width: 100%;
+	}
 
-.col {
-	margin: 0 16px;
-}
+	.col {
+		margin: 0 16px;
+	}
 
-.col-main {
-	text-align: center;
-	width: 100%;
-}
-.col-header-1 {
- 	width: 70%;
-}
+	.col-main {
+		text-align: center;
+		width: 100%;
+	}
+	.col-header-1 {
+		width: 70%;
+	}
 
-.col-header-2 {
-	width: 30%;
-}
+	.col-header-2 {
+		width: 30%;
+	}
 
-.col-content-1 {
- 	width: 40%;
-}
+	.col-content-1 {
+		width: 40%;
+	}
 
-.col-content-2 {
- 	width: 30%;
-}
+	.col-content-2 {
+		width: 30%;
+	}
 
-.col-content-3 {
- 	width: 30%;
+	.col-content-3 {
+		width: 30%;
 
-}
-/*
- * Main image
- */
-.main-image {
-	height: 340px; 
-	width: 990px;
-}
+	}
+	/*
+	* Main image
+	*/
+	.main-image {
+		height: 340px; 
+		width: 990px;
+	}
 
-/*
- * Navigation
- */
-.nav-top {
-	float: right;
-	margin-top: 20px; 
-}
+	/*
+	* Navigation
+	*/
+	.nav-top {
+		float: right;
+		margin-top: 20px; 
+	}
 
-nav li {
- 	display: inline;
-}
+	nav li {
+		display: inline;
+	}
 
-nav li a {
-	text-align: center;
-	border-right: 0.5px solid black;
-	padding: 5px;
-}
-nav li a:hover:not(.active) {
-    background-color: #111;
-    color: white;
-}
-.tab-active {
-	color: white;
-	text-decoration: none;
-	background-color: #111;
-}
-.botton-nav {
-	display: block;
-}
+	nav li a {
+		text-align: center;
+		border-right: 0.5px solid black;
+		padding: 5px;
+	}
+	nav li a:hover:not(.active) {
+		background-color: #111;
+		color: white;
+	}
+	.tab-active {
+		color: white;
+		text-decoration: none;
+		background-color: #111;
+	}
+	.botton-nav {
+		display: block;
+	}
 }

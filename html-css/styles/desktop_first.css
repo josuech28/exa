@@ -80,71 +80,77 @@ nav li a:hover:not(.active) {
  */
 
 @media screen and (max-width: 720px){
-.row {
-	display: block;
-}
+	/*
+ 	* Layaout to mobile
+ 	*/
+	.row {
+		display: block;
+	}
 
-.col-header-1 {
- 	width: 100%;
-}
+	.col-header-1 {
+		width: 100%;
+	}
 
-.col-header-2 {
-	width: 100%;
-}
+	.col-header-2 {
+		width: 100%;
+	}
 
-.col-content-1 {
- 	width: 100%;
-}
+	.col-content-1 {
+		width: 100%;
+	}
 
-.col-content-2 {
- 	width: 100%;
-}
+	.col-content-2 {
+		width: 100%;
+	}
 
-.col-content-3 {
- 	width: 100%;
-}
+	.col-content-3 {
+		width: 100%;
+	}
 
-.main-image {
-	height: 220px; 
-	width: 440px;
-}
-.nav-top {
-	float: none;
-	margin-top: 5px; 
-}
+	.main-image {
+		height: 220px; 
+		width: 440px;
+	}
+	/*
+ 	 * Nav mobile
+ 	 */
+	.nav-top {
+		float: none;
+		margin-top: 5px; 
+	}
 
- nav li {
- 	display: block;
- 	background: #D8D8D8;
- 	text-align: center;
- 	margin-bottom: 5px; 
- 	margin: : 5px;
-}
-nav li a {
-	color: #0080FF;
-	border-right: none;
-	text-align: center;
-}
+	nav li {
+		display: block;
+		background: #D8D8D8;
+		text-align: center;
+		margin-bottom: 5px; 
+		margin: 5px;
+	}
+	nav li a {
+		color: #0080FF;
+		border-right: none;
+		text-align: center;
+	}
 
-nav li:hover:not(.active) {
-    background-color: #6E6E6E;
-    color: white;
-}
-nav li a:hover:not(.active) {
-    background-color: transparent;
-    color: white;
-}
-.tab-active {
-	color: black;
-	text-decoration: none;
-	background-color: transparent;
-}
-.botton-nav {
-	display: none;
-}
-.col-main {
-	width: 100%;
-	text-align: center;
-}
+	nav li:hover:not(.active) {
+		background-color: #6E6E6E;
+		color: white;
+	}
+	nav li a:hover:not(.active) {
+		background-color: transparent;
+		color: white;
+	}
+	.tab-active {
+		color: black;
+		text-decoration: none;
+		background-color: transparent;
+	}
+	.botton-nav {
+		display: none;
+	}
+	.col-main {
+		width: 100%;
+		text-align: center;
+	}
 
 }
